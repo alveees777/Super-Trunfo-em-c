@@ -1,6 +1,6 @@
 int main() {
     // Carta 1
-    char estado1;
+    char estado1[20];
     char codigo1[4];
     char cidade1[50];
     int populacao1;
@@ -11,7 +11,7 @@ int main() {
     float pib_per_capita1;
 
     // Carta 2
-    char estado2;
+    char estado2[20];
     char codigo2[4];
     char cidade2[50];
     int populacao2;
@@ -25,7 +25,7 @@ int main() {
     printf("CADASTRO DA PRIMEIRA CARTA\n");
     
     printf("Estado: ");
-    scanf(" %c", &estado1);
+    scanf(" %20[^\n]", &estado1);
     
     printf("Codigo da carta (%c01-%c04): ", estado1, estado1);
     scanf("%3s", codigo1);
@@ -53,7 +53,7 @@ int main() {
     printf("\nCADASTRO DA SEGUNDA CARTA\n");
     
     printf("Estado: ");
-    scanf(" %c", &estado2);
+    scanf(" %20[^\n]", &estado2);
     
     printf("Codigo da carta (%c01-%c04): ", estado2, estado2);
     scanf("%3s", codigo2);
