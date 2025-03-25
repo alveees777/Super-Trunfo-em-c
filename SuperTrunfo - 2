@@ -1,5 +1,5 @@
 int main() {
-    // Variáveis para a primeira carta
+    // carta 1
     char estado1;
     char codigo1[4];
     char cidade1[50];
@@ -10,7 +10,7 @@ int main() {
     float densidade1;
     float pib_per_capita1;
 
-    // Variáveis para a segunda carta
+    // carta 2
     char estado2;
     char codigo2[4];
     char cidade2[50];
