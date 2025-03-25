@@ -21,7 +21,7 @@ int main() {
     float densidade2;
     float pib_per_capita2;
 
-    // Cadastro da primeira carta
+    // Cadastro carta 1
     printf("CADASTRO DA PRIMEIRA CARTA\n");
     
     printf("Estado: ");
@@ -49,10 +49,10 @@ int main() {
     densidade1 = populacao1 / area1;
     pib_per_capita1 = pib1 / populacao1;
 
-    // cadastrar segunda carta
+    // cadastrar carta 2
     printf("\nCADASTRO DA SEGUNDA CARTA\n");
     
-    printf("Estado (A-H): ");
+    printf("Estado: ");
     scanf(" %c", &estado2);
     
     printf("Codigo da carta (%c01-%c04): ", estado2, estado2);
